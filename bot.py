@@ -43,12 +43,15 @@ async def approve(_, m : Message):
     except errors.PeerIdInvalid as e:
         print("user isn't start bot(means group)")
     except Exception as err:
-        print(str(err))
-          keyboard = InlineKeyboardMarkup(
+        keyboard = InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton("🎥 JOIN UPDATE CHANNEL 🎥", url="https://t.me/+MEj3eB0vNzEwNmE9"),    
- 
+                     ]
+                ]
+            )
+        print(str(err))
+              
 #━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Start ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 @app.on_message(filters.command("start"))
