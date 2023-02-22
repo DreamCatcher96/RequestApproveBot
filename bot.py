@@ -43,7 +43,11 @@ async def approve(_, m : Message):
     except errors.PeerIdInvalid as e:
         print("user isn't start bot(means group)")
     except Exception as err:
-        print(str(err))    
+        print(str(err))
+          keyboard = InlineKeyboardMarkup(
+                [
+                    [
+                        InlineKeyboardButton("🎥 JOIN UPDATE CHANNEL 🎥", url="https://t.me/+MEj3eB0vNzEwNmE9"),    
  
 #━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Start ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -66,7 +70,7 @@ async def op(_, m :Message):
             await m.reply_photo("https://te.legra.ph/file/f4f0dafe3272919d0cde2.jpg", caption="**🦊 Hello {}!\nI'm an auto approve [Admin Join Requests]({}) Bot.\nI can approve users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.\n\n__Powerd By : @Galexycinemas__**".format(m.from_user.mention, "https://t.me/telegram/153"), reply_markup=keyboard)
     
         elif m.chat.type == enums.ChatType.GROUP or enums.ChatType.SUPERGROUP:
-            keyboar = InlineKeyboardMarkup(
+            keyboard = InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton("💁‍♂️ Start me private 💁‍♂️", url="https://t.me/Auto_reqest_accept_bot?start=start")
