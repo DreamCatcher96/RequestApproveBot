@@ -36,13 +36,6 @@ async def approve(_, m : Message):
     kk = m.from_user
     try:
         add_group(m.chat.id)
-           keyboard = InlineKeyboardMarkup(
-                [
-                    [
-                        InlineKeyboardButton("🎥 JOIN UPDATE CHANNEL 🎥", url="https://t.me/+MEj3eB0vNzEwNmE9"),    
-                     ]
-                ]
-            )
         await app.approve_chat_join_request(op.id, kk.id)
         img = random.choice(gif)
         await app.send_video(kk.id,img, "**Hello {}!\nWelcome To {}\n\n__Powerd By : @Galexycinemas__**".format(m.from_user.mention, m.chat.title))
@@ -50,6 +43,13 @@ async def approve(_, m : Message):
     except errors.PeerIdInvalid as e:
         print("user isn't start bot(means group)")
     except Exception as err:
+      keyboard = InlineKeyboardMarkup(
+                [
+                    [
+                        InlineKeyboardButton("🎥 JOIN UPDATE CHANNEL 🎥", url="https://t.me/+MEj3eB0vNzEwNmE9"),    
+                     ]
+                ]
+            )
         print(str(err))
               
 #━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Start ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
