@@ -26,7 +26,7 @@ gif = [
     'https://telegra.ph/file/6b1ab5aec5fa81cf40005.mp4',
     'https://telegra.ph/file/b4834b434888de522fa49.mp4'
 ]
-key_btn = InlineKeyboardMarkup([[InlineKeyboardButton("UPDATE CHANNEL", url="https://t.me/galexycinemas")]])
+key_btn = InlineKeyboardMarkup([[InlineKeyboardButton("🎥 BOT UPDATE CHANNEL 🎥", url="https://t.me/+MEj3eB0vNzEwNmE9")]])
 
 #━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Main process ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
