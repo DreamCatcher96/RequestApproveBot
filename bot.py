@@ -14,7 +14,7 @@ app = Client(
 )
 
 gif = [
-    'https://te.legra.ph/file/f4f0dafe3272919d0cde2.mp4',
+    'https://te.legra.ph/file/f4f0dafe3272919d0cde2.jpg',
     
 ]
 key_btn = InlineKeyboardMarkup([[InlineKeyboardButton("🎥 BOT UPDATE CHANNEL 🎥", url="https://t.me/+MEj3eB0vNzEwNmE9")]])
