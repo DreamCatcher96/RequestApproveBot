@@ -17,7 +17,7 @@ gif = [
     'https://te.legra.ph/file/f4f0dafe3272919d0cde2.jpg',
     
 ]
-key_btn = InlineKeyboardMarkup([[InlineKeyboardButton("🎥 BOT UPDATE CHANNEL 🎥", url="https://t.me/+jRWQhi8vSdk5OTBl")]])
+key_btn = InlineKeyboardMarkup([[InlineKeyboardButton("🎥 BOT UPDATE CHANNEL 🎥", url="https://t.me/+CZmAh81XutY0MDc1")]])
 
 #━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Main process ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
